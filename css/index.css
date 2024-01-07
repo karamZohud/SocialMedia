@@ -1,0 +1,275 @@
+:root{
+  --main-color:#4d636f  ;
+  --hover-color:#749aaf ;
+}
+body{
+    background-color: #f5f7f8 !important;
+    ;
+}
+.header{
+    width: 100%;
+    background-color: #4d636f ;
+    height: 50px;
+}
+.header .navbar ,
+.header .container-fluid
+{
+    height: 100% !important;
+  padding: 0;
+}
+.header .navbar .navbar-brand{
+    display: flex;
+    font-size: medium;
+    width: 100px;
+align-items: center;
+justify-content: center;
+background-color: #3a4b53 !important;
+height: 100%;
+padding: 0;
+margin-right: 0;
+}
+.header .navbar .navbar-brand:hover{
+    background-color: var(--hover-color) !important;
+}
+.header .navbar .nav-link{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: white;
+    margin-right: 20px;
+   align-items: center;
+   justify-content: center;
+}
+ .btn-no-focus:focus{
+    outline: none !important;
+   
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+.btn{
+    position: relative;
+}
+.dropdown-menu{
+    margin-top: 50px;
+}
+.badge{
+    position: absolute !important;
+    font-size: 9px !important;
+    top: 3px !important;
+}
+.header .navbar li:hover{
+    background-color: #749aaf !important;
+    
+}
+.header .navbar .nav-item{
+height: 50px;
+}
+
+.navbar-collapse{
+    height: 50px;
+}
+.navbar-collapse img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+
+}
+.navbar-collapse .image-navbar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+}
+.navbar-collapse .image-navbar:hover{
+background-color: #749aaf;
+}
+
+.card-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-head img{
+    border-radius: 50%;
+    width: 80%;
+    
+}
+.card hr{
+    width: 90%;
+    margin-left: 5%;
+}
+.card-body i{
+    color: #749aaf;
+}
+.card-body p{
+    font-size: small;
+}
+.card-body p:last-of-type{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.card-header{
+    
+    background-color: var(--main-color);
+   padding: 0;
+   text-align: start;
+    
+}
+.card-header .fa-fw,
+.card-header a{
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    
+}
+.card-header a:hover{
+    background-color: #749aaf;
+    color: black;
+    
+}
+.card-header i{
+    margin-right: 5px;
+    width: 20px !important;
+    
+}
+.img-card{
+    
+    align-items:center;
+    justify-content: center;
+    width: 100% !important;
+
+}
+ .card-body .img-card img{
+      width: 40%;
+      margin-left: 6%;
+      margin-bottom: 5px;
+}
+
+
+
+.intersts .badge{
+    position: relative !important;
+}
+.intersts .badge:nth-child(1){
+    font-size: 12px !important;
+}
+.intersts .badge:nth-child(2){
+    font-size: 11px !important;
+}
+.intersts .badge:nth-child(3){
+    font-size: 10px !important;
+}
+.intersts .badge:nth-child(4){
+    font-size: 9px !important;
+}
+.intersts .badge:nth-child(5){
+    font-size: 8px !important;
+}
+
+.exit{
+    border-radius: 4px;
+}
+.col-12 .exit{
+    display: none !important;
+}
+.form-post p{
+    color: #749aaf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.form-post form{
+    margin-top: 5;
+    width: 100%;
+}
+.form-post form input:nth-of-type(1){
+width: 100%;
+height: 40px;
+}
+.form-post form .form-control{
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    width: 100px;
+    font-size: medium;
+    background-color: var(--main-color);
+}
+.form-post form .form-control:hover{
+    background-color: #749aaf;
+}
+.form-post form .form-control i{
+    margin-right: 4px;
+}
+
+.imgbox{
+    display: flex;
+    width: 100%;
+margin-bottom: 20px;
+}
+.imgbox img{
+    width: 49%;
+}
+.imgbox img:first-child{
+margin-right:2% ;
+}
+.group-btn .btn{
+    background-color: var(--main-color);
+    color: white;
+}
+.group-btn .btn i{
+    margin-right: 4px;
+}
+.info{
+    border-color: transparent;
+    background-color: lightslategray;
+   width: 100%;
+
+margin-bottom: 10px;}
+.button-cheack{
+    
+bottom: 0;
+
+  
+}
+
+.ads{  
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads i{
+    font-size: xx-large;
+}
+
+.footer{
+    background-color: var(--main-color);
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer h3{
+    padding: 16px;
+    margin: 0;
+    
+}
+@media (min-width:768px){/*medium devices =>Tablets */
+    .container{
+        max-width:750pxpx !important;} 
+}
+@media (min-width:576px){/*small devices =>lansScape phone*/
+    .first-colume{
+        
+    }
+
+}
+
